@@ -1,0 +1,59 @@
+{
+  "insuredInterest": {
+    "aircraftGroupAirlines": [
+      {
+        "groupId": 1,
+        "operator": "Dubai Air Wing",
+        "aircraftTypeSummary": "B737-800 (NG)",
+        "aircraftUse": "Passenger",
+        "ageGroup": "0-5",
+        "operatorCountry": "United Arab Emirates",
+        "aircraftCt": 1,
+        "selectedPerCraftExpDep": 12412.0,
+        "selectedPerCraftAvgSeats": 67569.0,
+        "selectedPerCraftUsedAv": 4566.0,
+        "proRataFactor": 1.0,
+        "paxLoadFactor": 1.0,
+        "airframeType": "Wide"
+      },
+      {
+        "groupId": 2,
+        "operator": "UK Air Wing",
+        "aircraftTypeSummary": "B737-900 (NG)",
+        "aircraftUse": "Passenger",
+        "ageGroup": "0-5",
+        "operatorCountry": "United Kingdom",
+        "aircraftCt": 1,
+        "selectedPerCraftExpDep": 155858.0,
+        "selectedPerCraftAvgSeats": 98798.0,
+        "selectedPerCraftUsedAv": 3435.0,
+        "proRataFactor": 1.0,
+        "paxLoadFactor": 1.0,
+        "airframeType": "Wide"
+      }
+    ]
+  },
+  "lossHistory": {
+    "aggExperience": [
+      {
+        "lossHistoryPeriodId": 1,
+        "lossHistoryYear": 2020,
+        "claimSegment": [
+          {
+            "claimSegmentCd": "Deductible - Hull",
+            "totalAttritionalLosses": 350000.0,
+            "largeIncurredLosses": 1000000.0,
+            "indemnityIncurredAmt": 350000.0,
+            "aircraftCt": 82,
+            "ldf": 1.0,
+            "ultAttIndemnityIncurredAmt": 3067850.0,
+            "trend": 1.01,
+            "onLevelAttIndemnityIncurredAmt": 1552551.0,
+            "attLossCostPerUnit": 10.18,
+            "allocatedLargeLossCost": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

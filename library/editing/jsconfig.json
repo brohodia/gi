@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": "."
+  },
+  "exclude": [
+    "algorithms",
+    "data_schema",
+    "example_data",
+    "parameter_tables",
+    "test_cases"
+  ]
+}
